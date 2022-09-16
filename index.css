@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container-imagem {
+    position: center;
+    height: 950px;
+    width: 100%;
+    background-image: url(https://nubank.com.br/images-cms/1649356182-home-hero-lg-3x.jpg?w=1152&dpr=1&auto=compress&fm=webp);
+    background-size: cover;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    padding: 0%;
+    margin-top: 400px;
+    margin-left: 200px;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    padding: 0%;
+    margin-left: 200px;
+    
+    
+}
+
+.form {
+    padding: 20px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    margin: 15%;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.user-box label {
+    padding: 10px 0;
+    font-size: 20px;
+    color: gray;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.continuar {
+    border-radius: 20px;
+    border: 0;
+    font-size: 15px;
+    position: 0;
+    margin: auto;
+    height: 40px;
+    width: 100%;
+    color: rgba(17, 17, 17, 0.2);
+    background: rgba(17, 17, 17, 0.1);   
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    padding: 30px;
+    font-weight: bold;
+}
